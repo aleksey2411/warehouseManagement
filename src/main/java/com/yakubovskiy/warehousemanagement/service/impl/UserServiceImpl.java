@@ -47,7 +47,6 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public User findUserByUsername(String username) {
-		System.out.println("WTF");
 		return userRepository.findUserByUsername(username)
 				.orElseThrow(() -> new NoSuchElementException());
 	}

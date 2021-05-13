@@ -86,5 +86,4 @@ public class ProductController {
 		productService.removeProduct(id);
 		return "products";
 	}
-
 }
